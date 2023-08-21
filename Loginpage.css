@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    background: #ffffff;
+    min-height: 100vh;
+}
+
+.footer {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    align-items: left;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+span {
+    color: #f9004d;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #ff5043;
+    transition: .4s;
+}
+
+.btn {
+    background-color: #ff5043;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 5px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.header {
+    top: 0;
+    left: 0;
+    width: 88.1%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    background: #ff5043;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #181818;
+    font-family: Arial black;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 45px;
+    text-decoration: none;
+}
+
+.navbar a.right {
+    float: right;
+}
+
+.navbar a:hover {
+    background-color: #e9e7e6;
+    color: black;
+}
+
+.main {
+    flex: 100%;
+    background-image: url("Logo.png");
+    background-color: rgb(138, 138, 138);
+    min-height: calc(100vh - 51px - 70px);
+    overflow: hidden;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+.login-page {
+    width: 360px;
+    padding: 0 0 0;
+    margin-top: 70px;
+    margin-left: 40%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    backdrop-filter: blur(3px);
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    margin-top: 1px;
+    max-width: 360px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 25px;
+}
+
+.form .h1 {
+    font-weight: 900;
+}
+
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #e9e7e6;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    backdrop-filter: blur(400px);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    text-decoration: none;
+    background: black;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(239, 59, 58, 1) 0%, rgba(244, 118, 117, 1) 69%, rgba(239, 59, 58, 1) 95%, rgba(242, 99, 98, 1) 100%);
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.form .message a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.form .register-form {
+    display: none;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.container:before,
+.container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container .info {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.container .info h1 {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1a1a1a;
+}
+
+.container .info span {
+    color: #4d4d4d;
+    font-size: 12px;
+}
+
+.container .info span a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.container .info span .fa {
+    color: #EF3B3A;
+}
