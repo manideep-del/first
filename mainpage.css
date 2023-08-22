@@ -257,9 +257,9 @@ nav ul li a:hover {
     width: 43%;
     height: 40%;
     padding: 20px;
-    margin-left: 30px;
+    margin-left: 60px;
     margin-top: 20px;
-    margin-right: 3.5%;
+    margin-right: 2.5%;
     margin-bottom: 10px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
